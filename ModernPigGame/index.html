@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PigGame</title>
+</head>
+<body>
+    <div class="container">
+        <div class="table">
+            <div class="table-player-1">
+                <h1>Player 1</h1>
+                <p class="player-table-score-1">0</p>
+            </div>
+            <div class="table-player-2">
+                <h1>Player 2</h1>
+                <p class="player-table-score-2">0</p>
+            </div>
+        </div>
+
+
+
+        <div class="player player--1 current-player">
+            <div class="box box-1">
+                <h1>Player1</h1>
+                <div class="score">
+                    <p>Score</p>
+                    <p class="score-point-1">0</p>
+                </div>
+                <div class="current">
+                    <h3>Current</h3>
+                    <p class="current-score-1">0</p>
+                </div>
+            </div>
+
+
+            <div class="buttons-1">
+                <!-- <button class="btn table-btn-1">Table 🆚</button> -->
+                <!-- <button class="btn new-game-btn-1">New Game🔄</button> -->
+                <button class="btn roll-btn-1">Roll 🎲</button>
+                <button class="btn hold-btn-1">Hold 📥</button>
+            </div>
+
+        </div>
+        
+        <div class="middle">
+                <button class="middle-btn btn table-btn">Table 🆚</button>
+                <div class="dices">
+                    <img class="dice dice-0 hidden" src="IMG/dice-1.png" alt="">
+                    <img class="dice dice-1 hidden" src="IMG/dice-2.png" alt="">
+                    <img class="dice dice-2 hidden" src="IMG/dice-3.png" alt="">
+                    <img class="dice dice-3 hidden" src="IMG/dice-4.png" alt="">
+                    <img class="dice dice-4 hidden" src="IMG/dice-5.png" alt="">
+                    <img class="dice dice-5 hidden" src="IMG/dice-6.png" alt="">
+                </div>
+                <button class="middle-btn btn new-game-btn">New Game🔄</button>
+        </div>
+
+        <div class="player player--2 ">
+            <div class="box box-2">
+                <h1>Player2</h1>
+                <div class="score">
+                    <p>Score</p>
+                    <p class="score-point-2">0</p>
+                </div>
+                <div class="current">
+                    <h3>Current</h3>
+                    <p class="current-score-2">0</p>
+                </div>
+            </div>
+
+
+            <div class="buttons-2">
+                <!-- <button class="btn table-btn-2">Table 🆚</button> -->
+                <!-- <button class="btn new-game-btn-2">New Game🔄</button> -->
+                <button class="btn roll-btn-2">Roll 🎲</button>
+                <button class="btn hold-btn-2">Hold 📥</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
