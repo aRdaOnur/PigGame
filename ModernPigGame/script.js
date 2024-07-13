@@ -21,7 +21,7 @@ const btn_new_game = document.querySelector('.new-game-btn');
 
 const table = document.querySelector('.table');
 const tablePlayer1Score = document.querySelector('.player-table-score-1');
-const tablePlayer2Score = document.querySelector('.player-table-score-1');
+const tablePlayer2Score = document.querySelector('.player-table-score-2');
 
 let isGameFinish = true;
 let score1 = 0;
@@ -35,7 +35,7 @@ const randomNumber = function () {
 };
 
 const hideDices = function () {
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 6; i++) {
         document.querySelector(`.dice-${i}`).style.display = 'none';
     }
 };
